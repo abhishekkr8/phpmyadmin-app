@@ -6,10 +6,10 @@ $cfg['blowfish_secret'] = 'this_should_be_32_chars_random_secret';
 $i = 0;
 $i++;
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
-$cfg['Servers'][$i]['host'] = getenv('MYSQL_ADDON_HOST');
-$cfg['Servers'][$i]['port'] = getenv('MYSQL_ADDON_PORT');
-$cfg['Servers'][$i]['user'] = getenv('MYSQL_ADDON_USER');
-$cfg['Servers'][$i]['password'] = getenv('MYSQL_ADDON_PASSWORD');
+$cfg['Servers'][$i]['host'] = getenv('127.0.0.1');
+$cfg['Servers'][$i]['port'] = getenv('3308');
+$cfg['Servers'][$i]['user'] = getenv('root');
+$cfg['Servers'][$i]['password'] = getenv('Abhi8520@');
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = false;
 
